@@ -1,0 +1,1405 @@
+[
+   {
+     "array": [
+       {
+         "id": 1,
+         "title": "Two Sum",
+         "description": "Given an array of integers, return the indices of the two numbers such that they add up to a specific target.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums = [2, 7, 11, 15], target = 9",
+             "output": "[0, 1]"
+           }
+         ],
+         "constraints": [
+           "2 <= nums.length <= 104",
+           "-109 <= nums[i] <= 109",
+           "-109 <= target <= 109"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Best Time to Buy and Sell Stock",
+         "description": "Given an array prices where prices[i] is the price of a stock, find the maximum profit.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "prices = [7, 1, 5, 3, 6, 4]",
+             "output": "5"
+           }
+         ],
+         "constraints": [
+           "1 <= prices.length <= 105",
+           "0 <= prices[i] <= 104"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Rotate Array",
+         "description": "Rotate an array to the right by k steps.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [1, 2, 3, 4, 5, 6, 7], k = 3",
+             "output": "[5, 6, 7, 1, 2, 3, 4]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "0 <= k <= 105"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Product of Array Except Self",
+         "description": "Given an array nums, return an array answer such that answer[i] is the product of all elements except nums[i].",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [1, 2, 3, 4]",
+             "output": "[24, 12, 8, 6]"
+           }
+         ],
+         "constraints": [
+           "2 <= nums.length <= 105",
+           "-30 <= nums[i] <= 30"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Maximum Subarray",
+         "description": "Find the contiguous subarray with the largest sum.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]",
+             "output": "6"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "-104 <= nums[i] <= 104"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Find Minimum in Rotated Sorted Array",
+         "description": "Find the minimum element in a rotated sorted array.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [3, 4, 5, 1, 2]",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 5000",
+           "-5000 <= nums[i] <= 5000"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Merge Intervals",
+         "description": "Merge all overlapping intervals.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]",
+             "output": "[[1, 6], [8, 10], [15, 18]]"
+           }
+         ],
+         "constraints": [
+           "1 <= intervals.length <= 104",
+           "0 <= intervals[i][0] <= intervals[i][1] <= 104"
+         ]
+       }
+     ],
+     "string": [
+       {
+         "id": 1,
+         "title": "Longest Substring Without Repeating Characters",
+         "description": "Given a string, find the length of the longest substring without repeating characters.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'abcabcbb'",
+             "output": "3"
+           }
+         ],
+         "constraints": [
+           "0 <= s.length <= 105",
+           "s consists of English letters, digits, symbols, and spaces."
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Valid Anagram",
+         "description": "Given two strings, determine if one is an anagram of the other.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "s = 'anagram', t = 'nagaram'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length, t.length <= 5 * 104",
+           "s and t consist of lowercase English letters."
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Palindromic Substrings",
+         "description": "Given a string, return the number of palindromic substrings in it.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'aaa'",
+             "output": "6"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 1000",
+           "s consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Group Anagrams",
+         "description": "Given an array of strings, group anagrams together.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "strs = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat']",
+             "output": "[['bat'], ['nat', 'tan'], ['ate', 'eat', 'tea']]"
+           }
+         ],
+         "constraints": [
+           "1 <= strs.length <= 104",
+           "strs[i] consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Longest Palindromic Substring",
+         "description": "Find the longest palindromic substring in a given string.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'babad'",
+             "output": "'bab' or 'aba'"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 1000",
+           "s consists of only digits and English letters."
+         ]
+       },
+       {
+         "id": 6,
+         "title": "String to Integer (atoi)",
+         "description": "Implement a function to convert a string to an integer following specific rules.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = '   -42'",
+             "output": "-42"
+           }
+         ],
+         "constraints": [
+           "0 <= s.length <= 200",
+           "s consists of English letters, digits, spaces, and symbols."
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Check if Strings are Rotations",
+         "description": "Check if one string is a rotation of another.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "s1 = 'waterbottle', s2 = 'erbottlewat'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= s1.length, s2.length <= 100",
+           "s1 and s2 consist of lowercase English letters."
+         ]
+       }
+     ]
+   },
+   {
+     "string": [
+       {
+         "id": 1,
+         "title": "Longest Substring Without Repeating Characters",
+         "description": "Given a string, find the length of the longest substring without repeating characters.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'abcabcbb'",
+             "output": "3"
+           }
+         ],
+         "constraints": [
+           "0 <= s.length <= 105",
+           "s consists of English letters, digits, symbols, and spaces."
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Valid Anagram",
+         "description": "Given two strings, determine if one is an anagram of the other.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "s = 'anagram', t = 'nagaram'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length, t.length <= 5 * 104",
+           "s and t consist of lowercase English letters."
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Palindromic Substrings",
+         "description": "Given a string, return the number of palindromic substrings in it.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'aaa'",
+             "output": "6"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 1000",
+           "s consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Group Anagrams",
+         "description": "Given an array of strings, group anagrams together.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "strs = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat']",
+             "output": "[['bat'], ['nat', 'tan'], ['ate', 'eat', 'tea']]"
+           }
+         ],
+         "constraints": [
+           "1 <= strs.length <= 104",
+           "strs[i] consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Longest Palindromic Substring",
+         "description": "Find the longest palindromic substring in a given string.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'babad'",
+             "output": "'bab' or 'aba'"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 1000",
+           "s consists of only digits and English letters."
+         ]
+       },
+       {
+         "id": 6,
+         "title": "String to Integer (atoi)",
+         "description": "Implement a function to convert a string to an integer following specific rules.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = '   -42'",
+             "output": "-42"
+           }
+         ],
+         "constraints": [
+           "0 <= s.length <= 200",
+           "s consists of English letters, digits, spaces, and symbols."
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Check if Strings are Rotations",
+         "description": "Check if one string is a rotation of another.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "s1 = 'waterbottle', s2 = 'erbottlewat'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= s1.length, s2.length <= 100",
+           "s1 and s2 consist of lowercase English letters."
+         ]
+       }
+     ]
+   },
+   {
+     "sorting": [
+       {
+         "id": 1,
+         "title": "Merge Sort Implementation",
+         "description": "Implement the merge sort algorithm to sort an array of integers.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [38, 27, 43, 3, 9, 82, 10]",
+             "output": "[3, 9, 10, 27, 38, 43, 82]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "-104 <= nums[i] <= 104"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Quick Sort Implementation",
+         "description": "Implement the quick sort algorithm to sort an array of integers.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [10, 80, 30, 90, 40, 50, 70]",
+             "output": "[10, 30, 40, 50, 70, 80, 90]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "-104 <= nums[i] <= 104"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Sort Colors",
+         "description": "Sort an array containing 0s, 1s, and 2s without using the built-in sort function.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [2, 0, 2, 1, 1, 0]",
+             "output": "[0, 0, 1, 1, 2, 2]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 300",
+           "nums[i] is 0, 1, or 2."
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Kth Largest Element in an Array",
+         "description": "Find the kth largest element in an unsorted array.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [3, 2, 1, 5, 6, 4], k = 2",
+             "output": "5"
+           }
+         ],
+         "constraints": [
+           "1 <= k <= nums.length <= 104",
+           "-104 <= nums[i] <= 104"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Insertion Sort List",
+         "description": "Sort a linked list using insertion sort.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "head = [4, 2, 1, 3]",
+             "output": "[1, 2, 3, 4]"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [1, 5000]",
+           "-104 <= Node.val <= 104"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Largest Number",
+         "description": "Given a list of non-negative integers, arrange them such that they form the largest number.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [10, 2]",
+             "output": "\"210\""
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 100",
+           "0 <= nums[i] <= 109"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Sort Characters By Frequency",
+         "description": "Given a string, sort it in decreasing order based on the frequency of characters.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "s = 'tree'",
+             "output": "\"eert\""
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 5 * 105",
+           "s consists of English letters and digits."
+         ]
+       }
+     ]
+   },
+   {
+     "searching": [
+       {
+         "id": 1,
+         "title": "Binary Search",
+         "description": "Implement binary search to find the target in a sorted array.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums = [-1, 0, 3, 5, 9, 12], target = 9",
+             "output": "4"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 104",
+           "-104 <= nums[i], target <= 104",
+           "nums is sorted in ascending order."
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Search Insert Position",
+         "description": "Find the index where a target should be inserted in a sorted array.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums = [1, 3, 5, 6], target = 5",
+             "output": "2"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 104",
+           "-104 <= nums[i], target <= 104",
+           "nums is sorted in ascending order."
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Find First and Last Position of Element in Sorted Array",
+         "description": "Given a sorted array, find the first and last position of a target element.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [5, 7, 7, 8, 8, 10], target = 8",
+             "output": "[3, 4]"
+           }
+         ],
+         "constraints": [
+           "0 <= nums.length <= 105",
+           "-104 <= nums[i], target <= 104",
+           "nums is sorted in ascending order."
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Peak Element",
+         "description": "Find a peak element in an array where an element is greater than its neighbors.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [1, 2, 3, 1]",
+             "output": "2"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 1000",
+           "-231 <= nums[i] <= 231 - 1"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Search in Rotated Sorted Array",
+         "description": "Search for a target in a rotated sorted array.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [4, 5, 6, 7, 0, 1, 2], target = 0",
+             "output": "4"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 5000",
+           "-104 <= nums[i], target <= 104",
+           "nums is sorted and rotated."
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Find Minimum in Rotated Sorted Array",
+         "description": "Find the minimum element in a rotated sorted array.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [3, 4, 5, 1, 2]",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 5000",
+           "-5000 <= nums[i] <= 5000",
+           "nums is sorted and rotated."
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Median of Two Sorted Arrays",
+         "description": "Find the median of two sorted arrays.",
+         "difficulty": "Hard",
+         "examples": [
+           {
+             "input": "nums1 = [1, 3], nums2 = [2]",
+             "output": "2.0"
+           }
+         ],
+         "constraints": [
+           "0 <= nums1.length, nums2.length <= 1000",
+           "-106 <= nums1[i], nums2[i] <= 106",
+           "nums1 and nums2 are sorted."
+         ]
+       }
+     ]
+   },
+   {
+     "matrix": [
+       {
+         "id": 1,
+         "title": "Search a 2D Matrix",
+         "description": "Write an efficient algorithm that searches for a value in an m x n matrix.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "matrix = [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50]], target = 3",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "m == matrix.length",
+           "n == matrix[i].length",
+           "1 <= m, n <= 100",
+           "-104 <= matrix[i][j], target <= 104"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Set Matrix Zeroes",
+         "description": "Modify a matrix so that if an element is 0, its entire row and column are set to 0.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "matrix = [[1, 1, 1], [1, 0, 1], [1, 1, 1]]",
+             "output": "[[1, 0, 1], [0, 0, 0], [1, 0, 1]]"
+           }
+         ],
+         "constraints": [
+           "m == matrix.length",
+           "n == matrix[i].length",
+           "1 <= m, n <= 200",
+           "-231 <= matrix[i][j] <= 231 - 1"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Spiral Matrix",
+         "description": "Return all elements of a matrix in spiral order.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+             "output": "[1, 2, 3, 6, 9, 8, 7, 4, 5]"
+           }
+         ],
+         "constraints": [
+           "m == matrix.length",
+           "n == matrix[i].length",
+           "1 <= m, n <= 10",
+           "-100 <= matrix[i][j] <= 100"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Rotate Image",
+         "description": "Rotate a square matrix 90 degrees clockwise in place.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+             "output": "[[7, 4, 1], [8, 5, 2], [9, 6, 3]]"
+           }
+         ],
+         "constraints": [
+           "n == matrix.length",
+           "n == matrix[i].length",
+           "1 <= n <= 20",
+           "-1000 <= matrix[i][j] <= 1000"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Matrix Diagonal Sum",
+         "description": "Calculate the sum of the primary and secondary diagonals of a square matrix.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+             "output": "25"
+           }
+         ],
+         "constraints": [
+           "n == mat.length",
+           "n == mat[i].length",
+           "1 <= n <= 100",
+           "-100 <= mat[i][j] <= 100"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Transpose Matrix",
+         "description": "Given a matrix, return its transpose.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+             "output": "[[1, 4, 7], [2, 5, 8], [3, 6, 9]]"
+           }
+         ],
+         "constraints": [
+           "m == matrix.length",
+           "n == matrix[i].length",
+           "1 <= m, n <= 1000",
+           "-109 <= matrix[i][j] <= 109"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Word Search",
+         "description": "Given a 2D board and a word, find if the word exists in the grid.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "board = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], word = 'ABCCED'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "m == board.length",
+           "n == board[i].length",
+           "1 <= m, n <= 200",
+           "board[i][j] is a single character."
+         ]
+       }
+     ]
+   },
+   {
+     "hashing": [
+       {
+         "id": 1,
+         "title": "Two Sum",
+         "description": "Given an array of integers, find two numbers such that they add up to a specific target using a hash map.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums = [2, 7, 11, 15], target = 9",
+             "output": "[0, 1]"
+           }
+         ],
+         "constraints": [
+           "2 <= nums.length <= 104",
+           "-109 <= nums[i] <= 109",
+           "-109 <= target <= 109"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Group Anagrams",
+         "description": "Group strings that are anagrams of each other using hashing.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "strs = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat']",
+             "output": "[['bat'], ['nat', 'tan'], ['ate', 'eat', 'tea']]"
+           }
+         ],
+         "constraints": [
+           "1 <= strs.length <= 104",
+           "strs[i] consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Subarray Sum Equals K",
+         "description": "Find the total number of continuous subarrays whose sum equals to k using hashing.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [1, 1, 1], k = 2",
+             "output": "2"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 2 * 104",
+           "-1000 <= nums[i] <= 1000",
+           "-107 <= k <= 107"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Longest Consecutive Sequence",
+         "description": "Find the length of the longest consecutive sequence of numbers in an array using hashing.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [100, 4, 200, 1, 3, 2]",
+             "output": "4"
+           }
+         ],
+         "constraints": [
+           "0 <= nums.length <= 105",
+           "-109 <= nums[i] <= 109"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Top K Frequent Elements",
+         "description": "Return the k most frequent elements in an array using hashing.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [1, 1, 1, 2, 2, 3], k = 2",
+             "output": "[1, 2]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "-104 <= nums[i] <= 104",
+           "1 <= k <= nums.length"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Contains Duplicate",
+         "description": "Check if an array contains any duplicates using hashing.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums = [1, 2, 3, 1]",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "-109 <= nums[i] <= 109"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Intersection of Two Arrays II",
+         "description": "Given two arrays, return their intersection using hashing.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "nums1 = [1, 2, 2, 1], nums2 = [2, 2]",
+             "output": "[2, 2]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums1.length, nums2.length <= 1000",
+           "0 <= nums1[i], nums2[i] <= 1000"
+         ]
+       }
+     ]
+   },
+   {
+     "linked list": [
+       {
+         "id": 1,
+         "title": "Reverse Linked List",
+         "description": "Reverse a singly linked list.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "head = [1, 2, 3, 4, 5]",
+             "output": "[5, 4, 3, 2, 1]"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [0, 5000]",
+           "The value of each node is within the range [-5000, 5000]"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Detect Cycle in Linked List",
+         "description": "Determine if a linked list has a cycle in it.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "head = [3, 2, 0, -4], pos = 1",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [0, 104]",
+           "-105 <= Node.val <= 105"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Merge Two Sorted Lists",
+         "description": "Merge two sorted linked lists into one sorted list.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "l1 = [1, 2, 4], l2 = [1, 3, 4]",
+             "output": "[1, 1, 2, 3, 4, 4]"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in both lists is in the range [0, 50]",
+           "-100 <= Node.val <= 100"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Remove Nth Node from End of List",
+         "description": "Remove the nth node from the end of a linked list.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "head = [1, 2, 3, 4, 5], n = 2",
+             "output": "[1, 2, 3, 5]"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [1, 30]",
+           "1 <= n <= length of list"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Add Two Numbers",
+         "description": "Add two numbers represented by two linked lists, where each node contains a single digit.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "l1 = [2, 4, 3], l2 = [5, 6, 4]",
+             "output": "[7, 0, 8]"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in each list is in the range [1, 100]",
+           "0 <= Node.val <= 9"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Palindrome Linked List",
+         "description": "Check whether a linked list is a palindrome.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "head = [1, 2, 2, 1]",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [1, 105]",
+           "-105 <= Node.val <= 105"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Intersection of Two Linked Lists",
+         "description": "Determine the node where two linked lists intersect.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "headA = [4, 1, 8, 4, 5], headB = [5, 6, 1, 8, 4, 5]",
+             "output": "8"
+           }
+         ],
+         "constraints": [
+           "The number of nodes in the list is in the range [0, 10^4]",
+           "The values of the nodes are within the range [-10^4, 10^4]"
+         ]
+       }
+     ]
+   },
+   {
+     "stack": [
+       {
+         "id": 1,
+         "title": "Valid Parentheses",
+         "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "s = '()[]{}'",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= s.length <= 100",
+           "s consists of parentheses only."
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Min Stack",
+         "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "push(1), push(2), push(3), getMin()",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "The number of calls to push, pop, top, and getMin will be at most 3 * 104."
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Evaluate Reverse Polish Notation",
+         "description": "Evaluate the value of an arithmetic expression in Reverse Polish Notation.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "tokens = ['2', '1', '+', '3', '*']",
+             "output": "9"
+           }
+         ],
+         "constraints": [
+           "1 <= tokens.length <= 104",
+           "tokens[i] is either an operator '+', '-', '*', '/' or an integer."
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Daily Temperatures",
+         "description": "Given a list of daily temperatures, return a list of the number of days you would have to wait until a warmer temperature.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "temperatures = [73, 74, 75, 71, 69, 72, 76, 73]",
+             "output": "[1, 1, 4, 2, 1, 1, 0, 0]"
+           }
+         ],
+         "constraints": [
+           "1 <= temperatures.length <= 10000",
+           "30 <= temperatures[i] <= 100"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Implement Stack using Queues",
+         "description": "Implement a stack using only two queues.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "push(1), push(2), pop(), top()",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "The number of operations on the stack will not exceed 1000."
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Simplify Path",
+         "description": "Given an absolute path for a file or directory in Unix-style, simplify it.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "path = '/home/../usr//bin/'",
+             "output": "/usr/bin"
+           }
+         ],
+         "constraints": [
+           "1 <= path.length <= 3000",
+           "path is a valid absolute path."
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Score of Parentheses",
+         "description": "Given a balanced parentheses string S, return the score of the string.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "S = '()()'",
+             "output": "2"
+           }
+         ],
+         "constraints": [
+           "1 <= S.length <= 30",
+           "S is a balanced parentheses string."
+         ]
+       }
+     ]
+   },
+   {
+     "queue": [
+       {
+         "id": 1,
+         "title": "Implement Queue using Stacks",
+         "description": "Implement a queue using two stacks. Implement the following operations: enqueue, dequeue, front, and empty.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "enqueue(1), enqueue(2), dequeue(), front()",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "The number of operations will not exceed 1000."
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Circular Queue",
+         "description": "Design a circular queue that supports the following operations: enqueue, dequeue, front, rear, and isEmpty.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "enqueue(1), enqueue(2), dequeue(), front()",
+             "output": "2"
+           }
+         ],
+         "constraints": [
+           "1 <= k <= 1000",
+           "1 <= value <= 1000"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Sliding Window Maximum",
+         "description": "Given an array nums and an integer k, return the maximum sliding window of size k for each position in the array.",
+         "difficulty": "Hard",
+         "examples": [
+           {
+             "input": "nums = [1,3,-1,-3,5,3,6,7], k = 3",
+             "output": "[3,3,5,5,6,7]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 105",
+           "1 <= k <= nums.length"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "First Non-Repeating Character in a Stream",
+         "description": "Given a stream of characters, return the first non-repeating character each time a new character is added to the stream.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "stream = 'aabcc'",
+             "output": "a, a, c"
+           }
+         ],
+         "constraints": [
+           "1 <= stream.length <= 1000",
+           "stream consists of lowercase English letters."
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Reverse Queue",
+         "description": "Write a program to reverse the elements of a queue using recursion.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "queue = [1, 2, 3, 4]",
+             "output": "[4, 3, 2, 1]"
+           }
+         ],
+         "constraints": [
+           "1 <= queue.length <= 1000",
+           "1 <= queue[i] <= 1000"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Generate Binary Numbers from 1 to N",
+         "description": "Given an integer N, generate all binary numbers from 1 to N.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "N = 5",
+             "output": "[1, 10, 11, 100, 101]"
+           }
+         ],
+         "constraints": [
+           "1 <= N <= 1000"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Queue Reconstruction by Height",
+         "description": "You are given an array of people where people[i] = [h, k], h is the height of the person and k is the number of people in front of this person who have a height greater than or equal to h. Reconstruct the queue and return it.",
+         "difficulty": "Hard",
+         "examples": [
+           {
+             "input": "people = [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]",
+             "output": "[[5,0], [7,0], [5,2], [6,1], [7,1], [4,4]]"
+           }
+         ],
+         "constraints": [
+           "1 <= people.length <= 2000",
+           "0 <= k < people.length"
+         ]
+       }
+     ]
+   },
+   {
+     "tree": [
+       {
+         "id": 1,
+         "title": "Maximum Depth of Binary Tree",
+         "description": "Given a binary tree, find its maximum depth. The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "root = [3,9,20,null,null,15,7]",
+             "output": "3"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 100"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Symmetric Tree",
+         "description": "Given a binary tree, check whether it is a mirror of itself (symmetric around its center).",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "root = [1,2,2,3,4,4,3]",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 100"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Invert Binary Tree",
+         "description": "Invert a binary tree. Inverted tree is a tree where the left and right children of all nodes are swapped.",
+         "difficulty": "Easy",
+         "examples": [
+           {
+             "input": "root = [4,2,7,1,3,6,9]",
+             "output": "[4,7,2,9,6,3,1]"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 100"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Binary Tree Level Order Traversal",
+         "description": "Given a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "root = [3,9,20,null,null,15,7]",
+             "output": "[[3], [9, 20], [15, 7]]"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 100"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Path Sum",
+         "description": "Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "root = [5,4,8,11,null,13,4,7,2,null,null,null,1], sum = 22",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 1000",
+           "-1000 <= node.val <= 1000"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Convert Sorted Array to Binary Search Tree",
+         "description": "Given an integer array where elements are sorted in ascending order, convert it to a height-balanced binary search tree.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "nums = [-10,-3,0,5,9]",
+             "output": "[0,-3,9,-10,null,5]"
+           }
+         ],
+         "constraints": [
+           "1 <= nums.length <= 1000",
+           "-104 <= nums[i] <= 104"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Lowest Common Ancestor of a Binary Tree",
+         "description": "Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. The lowest common ancestor is the lowest node in the tree that has both nodes as descendants.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1",
+             "output": "3"
+           }
+         ],
+         "constraints": [
+           "1 <= number of nodes <= 1000"
+         ]
+       }
+     ]
+   },
+   {
+     "graph": [
+       {
+         "id": 1,
+         "title": "Number of Islands",
+         "description": "Given a 2D grid of characters '1' (land) and '0' (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "grid = [['1','1','1','1','0'],['1','1','0','1','0'],['1','1','0','0','0'],['0','0','0','0','0']]",
+             "output": "1"
+           }
+         ],
+         "constraints": [
+           "1 <= grid.length, grid[i].length <= 300"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Clone Graph",
+         "description": "Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "node = [[2,4],[1,3],[2,4],[1,3]]",
+             "output": "Clone of the input graph"
+           }
+         ],
+         "constraints": [
+           "1 <= node.val <= 1000",
+           "1 <= node.neighbors.length <= 100"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Course Schedule",
+         "description": "There are a total of n courses you have to take, labeled from 0 to n - 1. Some courses may have prerequisites, and you need to determine if it is possible to finish all courses.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "numCourses = 2, prerequisites = [[1,0]]",
+             "output": "true"
+           }
+         ],
+         "constraints": [
+           "1 <= numCourses <= 2000",
+           "0 <= prerequisites.length <= 5000"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Pacific Atlantic Water Flow",
+         "description": "Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, find all the cells where water can flow to both the Pacific and Atlantic oceans.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "heights = [[1,2,3],[8,9,4],[7,6,5]]",
+             "output": "[[0,0],[0,1],[1,2],[2,2]]"
+           }
+         ],
+         "constraints": [
+           "1 <= m, n <= 100"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Word Ladder",
+         "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of the shortest transformation sequence from beginWord to endWord, such that only one letter can be changed at a time, and each transformed word must exist in the word list.",
+         "difficulty": "Hard",
+         "examples": [
+           {
+             "input": "beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']",
+             "output": "5"
+           }
+         ],
+         "constraints": [
+           "1 <= beginWord.length <= 10",
+           "1 <= wordList.length <= 5000"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Topological Sort",
+         "description": "Given a directed graph, perform a topological sort of the nodes.",
+         "difficulty": "Medium",
+         "examples": [
+           {
+             "input": "graph = [[2,3],[2],[3],[]]",
+             "output": "[0, 1, 2, 3]"
+           }
+         ],
+         "constraints": [
+           "1 <= n <= 10^6",
+           "0 <= graph[i].length <= n"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Dijkstra's Shortest Path Algorithm",
+         "description": "Implement Dijkstra's algorithm to find the shortest path between a source node and all other nodes in a weighted graph.",
+         "difficulty": "Hard",
+         "examples": [
+           {
+             "input": "graph = [[0,1,2],[1,0,4],[2,4,0]], source = 0",
+             "output": "[0, 1, 2]"
+           }
+         ],
+         "constraints": [
+           "1 <= n <= 1000",
+           "1 <= graph.length <= 100"
+         ]
+       }
+     ]
+   }
+ ]
